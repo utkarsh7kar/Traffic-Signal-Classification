@@ -43,3 +43,10 @@ Training Data needs to be Scaled and Normalized , Extended , Also Augmented , Ba
 * Use of complete augmented dataset where each image is perturbed 10 times using augmentation techniques with an intensity factor and minimum sample target over 15 epochs. 
 * The hyperparameters are fixed using search epochs for a simpler dataset and 2 classes. 
 * The final accuracy on the test set after training the model for 15 epochs is 93.20 %
+# * Model Testing
+* RBG images are Converted to grey scale and the highest probable image classified is displayed:
+<p align="center">
+  <img src="traffic_sign_approximation.png" width="1500"/>
+</p>
+
+
