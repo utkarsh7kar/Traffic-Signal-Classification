@@ -32,10 +32,12 @@ https://github.com/utkarsh7kar/Traffic-Signal-Classification
 * Greedy best save implemented on validation accuracy being the criteria
 
 # Project Description
-# *Pre-Processing of Data 
+# * Pre-Processing of Data 
 * Pre-processing techniques include 
   1. Centering around mean globally
   2. Locally centering the image around the mean
   3. Normalizing using Standard Deviation
   4. Use Histogram Equalization
 Training Data needs to be Scaled and Normalized , Extended , Also Augmented , Balanced. It is sufficient to scale and normalize the validation & test data
+# * Model Training
+* 
