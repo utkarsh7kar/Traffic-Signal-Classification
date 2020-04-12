@@ -1,8 +1,8 @@
 # Traffic-Signal-Classification
 
 This is a Deep Neural Network approach to do traffic sign recognition
-*Establishing a reliable Traffic Sign Classification mechanism is a major step in our journey towards building semi-autonomous/autonomous driving systems.
-*This post intends to explain an approach to solve the problem of traffic sign classification and I intend to build, train and deploy a deep learning network for traffic sign classification.
+* Establishing a reliable Traffic Sign Classification mechanism is a major step in our journey towards building semi-autonomous/autonomous driving systems.
+* This post intends to explain an approach to solve the problem of traffic sign classification and I intend to build, train and deploy a deep learning network for traffic sign classification.
 
 # Highlights of Project
 * The traffic sign dataset that we will be working on is GTSRB — German Traffic Signs. 
@@ -17,4 +17,17 @@ https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/download
 
 # Clone the repository
 https://github.com/utkarsh7kar/Traffic-Signal-Classification
+
+# Working with Repository
+* The Directory must contain the data set above described.
+* Launch the traffic_sign in jupyter notebook
+* run the program and a model named my_model.h5 will be created.
+* launch user file in jupyter notebook
+* run the program and the gui will be prompted.
+
+# Some highlights 
+* 93.5% accuracy over the test set 
+* Learning rate annealing, Dropout increment, batch size increase as accuracy increases
+* Greedy best save implemented on validation accuracy being the criteria
+
 
