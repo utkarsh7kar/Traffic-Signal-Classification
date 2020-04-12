@@ -27,7 +27,7 @@ https://github.com/utkarsh7kar/Traffic-Signal-Classification
 * run the program and the gui will be prompted.
 
 # Some highlights:
-* 93.5% accuracy over the test set 
+* 93.20% accuracy over the test set 
 * Learning rate annealing, Dropout increment, batch size increase as accuracy increases
 * Greedy best save implemented on validation accuracy being the criteria
 
@@ -40,4 +40,6 @@ https://github.com/utkarsh7kar/Traffic-Signal-Classification
   4. Use Histogram Equalization
 Training Data needs to be Scaled and Normalized , Extended , Also Augmented , Balanced. It is sufficient to scale and normalize the validation & test data
 # * Model Training
-* 
+* Use of complete augmented dataset where each image is perturbed 10 times using augmentation techniques with an intensity factor and minimum sample target over 15 epochs. 
+* The hyperparameters are fixed using search epochs for a simpler dataset and 2 classes. 
+* The final accuracy on the test set after training the model for 15 epochs is 93.20 %
