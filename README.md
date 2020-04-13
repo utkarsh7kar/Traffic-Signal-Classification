@@ -49,4 +49,4 @@ Training Data needs to be Scaled and Normalized , Extended , Also Augmented , Ba
   <img src="traffic_sign_approximation.png" width="1500"/>
 </p>
 
-
+hbjnk.l
