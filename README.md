@@ -22,7 +22,7 @@ https://github.com/utkarsh7kar/Traffic-Signal-Classification
 # Working with Project:
 * The Directory must contain the data set above described.
 * Launch the traffic_sign in jupyter notebook
-* run the program and a model named my_model.h5 will be created.
+* run the program and a model named Trained_model.h5 will be created.
 * launch user file in jupyter notebook
 * run the program and the gui will be prompted.
 
