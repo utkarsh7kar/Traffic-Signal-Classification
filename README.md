@@ -27,7 +27,7 @@ https://github.com/utkarsh7kar/Traffic-Signal-Classification
 * run the program and the gui will be prompted.
 
 # Some highlights:
-* 93.20% accuracy over the test set 
+* Around 96% accuracy over the test set 
 * Learning rate annealing, Dropout increment, batch size increase as accuracy increases
 * Greedy best save implemented on validation accuracy being the criteria
 
